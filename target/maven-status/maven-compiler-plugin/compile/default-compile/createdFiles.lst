@@ -1,6 +1,5 @@
 ch\zhaw\sml\iwi\meng\workouttracker\security\TokenGenerator.class
 ch\zhaw\sml\iwi\meng\workouttracker\entity\UserRepository.class
-ch\zhaw\sml\iwi\meng\workouttracker\boundary\VueController.class
 ch\zhaw\sml\iwi\meng\workouttracker\entity\Workout.class
 ch\zhaw\sml\iwi\meng\workouttracker\controller\ExerciseInfoController.class
 ch\zhaw\sml\iwi\meng\workouttracker\controller\WorkoutController.class
