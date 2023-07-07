@@ -28,7 +28,7 @@ public class WorkoutTracker implements CommandLineRunner {
 
     public static void main(String[] args) {
         SpringApplication.run(WorkoutTracker.class, args);
-        
+
     }
 
     @Autowired
@@ -40,23 +40,24 @@ public class WorkoutTracker implements CommandLineRunner {
     @Autowired
     private WorkoutRepository workoutRepository;
 
-    
     @Bean
     public WebMvcConfigurer corsConfigurer() {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                    // This is only really relevant for development, where we have different servers for frontend and backend
-                    .allowedOrigins("https://singular-pony-43c603.netlify.app")
-                    .allowedMethods("GET", "PUT", "POST", "DELETE")
-                    // AllowCredentials is necessary, as it sets 'Access-Control-Allow-Credentials'. 
-                    // Otherwise Angular's HttpClient will not pass the Cookie back.
-                    .allowCredentials(true);
+                        // This is only really relevant for development, where we have different servers
+                        // for frontend and backend
+                        .allowedOrigins("https://workout-tracker-fswd-9179a4515900.herokuapp.com/",
+                                "https://singular-pony-43c603.netlify.app")
+                        .allowedMethods("GET", "PUT", "POST", "DELETE")
+                        // AllowCredentials is necessary, as it sets 'Access-Control-Allow-Credentials'.
+                        // Otherwise Angular's HttpClient will not pass the Cookie back.
+                        .allowCredentials(true);
             }
         };
     }
-   
+
     @Override
     public void run(String... args) throws Exception {
         User u = new User();

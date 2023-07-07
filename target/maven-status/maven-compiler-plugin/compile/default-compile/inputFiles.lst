@@ -6,6 +6,7 @@ C:\Users\samue\Coding\Workout App\workoutTracker\src\main\java\ch\zhaw\sml\iwi\m
 C:\Users\samue\Coding\Workout App\workoutTracker\src\main\java\ch\zhaw\sml\iwi\meng\workouttracker\controller\ExerciseController.java
 C:\Users\samue\Coding\Workout App\workoutTracker\src\main\java\ch\zhaw\sml\iwi\meng\workouttracker\entity\ExerciseInfo.java
 C:\Users\samue\Coding\Workout App\workoutTracker\src\main\java\ch\zhaw\sml\iwi\meng\workouttracker\security\TokenGenerator.java
+C:\Users\samue\Coding\Workout App\workoutTracker\src\main\java\ch\zhaw\sml\iwi\meng\workouttracker\config\VueRouterConfiguration.java
 C:\Users\samue\Coding\Workout App\workoutTracker\src\main\java\ch\zhaw\sml\iwi\meng\workouttracker\entity\ExerciseInfoRepository.java
 C:\Users\samue\Coding\Workout App\workoutTracker\src\main\java\ch\zhaw\sml\iwi\meng\workouttracker\entity\User.java
 C:\Users\samue\Coding\Workout App\workoutTracker\src\main\java\ch\zhaw\sml\iwi\meng\workouttracker\security\configuration\TokenCookieAuthSecurityConfigAPI.java

@@ -13,6 +13,7 @@ ch\zhaw\sml\iwi\meng\workouttracker\controller\ExerciseController.class
 ch\zhaw\sml\iwi\meng\workouttracker\security\configuration\TokenCookieAuthSecurityConfigAuth.class
 ch\zhaw\sml\iwi\meng\workouttracker\security\TokenAuthenticationFilter.class
 ch\zhaw\sml\iwi\meng\workouttracker\boundary\UserEndpoint.class
+ch\zhaw\sml\iwi\meng\workouttracker\config\VueRouterConfiguration.class
 ch\zhaw\sml\iwi\meng\workouttracker\entity\ExerciseInfo.class
 ch\zhaw\sml\iwi\meng\workouttracker\security\configuration\BasicAuthSecurityConfig.class
 ch\zhaw\sml\iwi\meng\workouttracker\entity\Exercise.class
