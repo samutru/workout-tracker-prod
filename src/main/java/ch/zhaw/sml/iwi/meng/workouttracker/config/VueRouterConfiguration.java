@@ -12,7 +12,7 @@ public class VueRouterConfiguration implements WebMvcConfigurer {
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
         // Forward routes to index.html, excluding: /webjars/**, /api/**, /**.ico, /**.js, /**.html, **/*.js.map, **/*.css, and **/*.css.map
-        registry.addViewController("/{path:[^\\.]*}")
+        registry.addViewController("/**")
                 .setViewName("forward:/index.html");
     }
 }
