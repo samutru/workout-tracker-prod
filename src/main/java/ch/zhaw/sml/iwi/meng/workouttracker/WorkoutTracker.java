@@ -48,7 +48,7 @@ public class WorkoutTracker implements CommandLineRunner {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
                     // This is only really relevant for development, where we have different servers for frontend and backend
-                    .allowedOrigins("https://workout-tracker-2k02.onrender.com/")
+                    .allowedOrigins("https://singular-pony-43c603.netlify.app")
                     .allowedMethods("GET", "PUT", "POST", "DELETE")
                     // AllowCredentials is necessary, as it sets 'Access-Control-Allow-Credentials'. 
                     // Otherwise Angular's HttpClient will not pass the Cookie back.
