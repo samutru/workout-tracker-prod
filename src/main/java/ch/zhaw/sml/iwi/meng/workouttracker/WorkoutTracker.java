@@ -48,7 +48,7 @@ public class WorkoutTracker implements CommandLineRunner {
                 registry.addMapping("/**")
                         // This is only really relevant for development, where we have different servers
                         // for frontend and backend
-                        .allowedOrigins("https://workout-tracker-fswd-9179a4515900.herokuapp.com/",
+                        .allowedOrigins("https://workout-tracker-fswd-9179a4515900.herokuapp.com",
                                 "https://singular-pony-43c603.netlify.app")
                         .allowedMethods("GET", "PUT", "POST", "DELETE")
                         // AllowCredentials is necessary, as it sets 'Access-Control-Allow-Credentials'.
